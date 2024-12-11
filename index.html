@@ -48,6 +48,40 @@
             </div>
         </section>
 
+        <!-- Agendamento -->
+        <section id="scheduling" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Agende Seu Horário</h2>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="phone" placeholder="(XX) XXXXX-XXXX">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="service" class="form-label">Serviço</label>
+                            <select id="service" class="form-select">
+                                <option value="corte">Corte de Cabelo</option>
+                                <option value="barba">Barba</option>
+                                <option value="massagem">Massagem</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="date" class="form-label">Data</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Agendar</button>
+                </form>
+            </div>
+        </section>
+
     </main>
     
 </body>
