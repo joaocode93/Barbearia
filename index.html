@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Power Barbearia</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="bg-dark text-white py-3">
@@ -32,21 +32,21 @@
                         <div class="p-4 border rounded">
                             <img src="./img/Cortando o cabelo.jpg"  width="300" 
                             height="548"  class="card-img-top" alt="imagem 1">
-                            <h3>Corte de Cabelo</h3>
+                            <h3 class="mt-3">Corte de Cabelo</h3>
                             <p>Transforme seu visual com cortes modernos e estilosos.</p>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="p-4 border rounded">
                             <img src="./img/Fazendo a barba.jpg" class="card-img-top" alt="imagem 2">
-                            <h3>Barba</h3>
+                            <h3 class="mt-3">Barba</h3>
                             <p>Cuidados específicos para deixar sua barba impecável.</p>
                         </div>
                     </div>
                     <div class="col-md-4 text-center">
                         <div class="p-4 border rounded">
                             <img src="./img/Massagem.jpg" class="card-img-top" alt="imagem 3">
-                            <h3>Massagem</h3>
+                            <h3 class="mt-3">Massagem</h3>
                             <p>Relaxe com nossas técnicas de massagem profissionais.</p>
                         </div>
                     </div>
@@ -93,8 +93,8 @@
             <div class="container">
                 <h2 class="text-center mb-4">Onde Estamos</h2>
                 <div class="text-center">
-                    <p>Rua Exemplo, 123 - Centro, Cidade</p>
-                    <iframe class="w-100" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345094744!2d144.9537353153177!3d-37.81627927975148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf0727b3c7f3e20f!2sExample!5e0!3m2!1sen!2sau!4v1617274123456!5m2!1sen!2sau" allowfullscreen="" loading="lazy"></iframe>
+                    <p> R. Gervásio Leite Rebelo, 1416 - Jardim Peri, São Paulo - SP</p>
+                    <iframe class="w-100" height="300" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.1588232053173!2d-46.6683125!3d-23.454734900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef757817dab35%3A0xcf67e4aac8a9c6e8!2sTuti%20Barbeiro%20Black%20Power%20Ap%C3%B3ia%20O%20Calvo!5e0!3m2!1spt-BR!2sbr!4v1733941917071!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </section>
@@ -108,8 +108,8 @@
                         <div class="card">
                             <img src="./img/Shampoo.png" class="card-img-top" alt="Produto 1">
                             <div class="card-body">
-                                <h5 class="card-title">Produto 1</h5>
-                                <p class="card-text">Descrição breve do produto.</p>
+                                <h5 class="card-title">Shampoo</h5>
+                                <p class="card-text">Define os cachos, promove brilho e hidratação intensa.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                             </div>
                         </div>
@@ -118,8 +118,8 @@
                         <div class="card">
                             <img src="./img/Pomada.png" class="card-img-top" alt="Produto 2">
                             <div class="card-body">
-                                <h5 class="card-title">Produto 2</h5>
-                                <p class="card-text">Descrição breve do produto.</p>
+                                <h5 class="card-title">Pomada</h5>
+                                <p class="card-text">Domine sua barba com a fixação imbatível. Modele e defina cada fio.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                             </div>
                         </div>
@@ -128,8 +128,8 @@
                         <div class="card">
                             <img src="./img/óleo.png" class="card-img-top" alt="Produto 3">
                             <div class="card-body">
-                                <h5 class="card-title">Produto 3</h5>
-                                <p class="card-text">Descrição breve do produto.</p>
+                                <h5 class="card-title">Óleo</h5>
+                                <p class="card-text">Enriquecido com óleos essenciais e vitaminas, que nutrem profundamente a barba e a pele.</p>
                                 <a href="#" class="btn btn-primary">Comprar</a>
                             </div>
                         </div>
@@ -139,11 +139,53 @@
         </section>
     </main>
 
-    <footer class="bg-dark text-white py-3 text-center">
-        <p>© 2024 Black Power Barbearia. Todos os direitos reservados.</p>
-    </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Rodapé -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+          <div class="row d-flex align-items-center">  <div class="col-md-4 text-start">  <h5>Siga-nos</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="bi bi-facebook"></i> 
+                  <a href="#" class="text-white text-decoration-none">Facebook</a>
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-instagram"></i> 
+                  <a href="#" class="text-white text-decoration-none">Instagram</a>
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-youtube"></i> 
+                  <a href="#" class="text-white text-decoration-none">YouTube</a>
+                </li>
+              </ul>
+            </div>
+      
+            <div class="col-md-4 text-center">  
+                <b> ₢copyright 2024 João Victor Santos </b>
+                <br><audio controls>
+                    <source src="./audio/Lana Del Rey - Summertime Sadness REGGAE REMIX - GRAVE.mp3" type="audio/mp3">
+                    <source src="./audio/Lana Del Rey - Summertime Sadness REGGAE REMIX - GRAVE.mp3" type="audio/ogg">         
+            </div>
+      
+            <div class="col-md-4 text-end">   <h5>Contato</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <i class="bi bi-whatsapp"></i> 
+                  <a href="tel:5135082205" class="text-white text-decoration-none">51 3508 2205</a>
+                </li>
+                <li class="mb-2">
+                  <i class="bi bi-envelope"></i> 
+                  <a href="mailto:contato@velhotranquilo.com.br" class="text-white text-decoration-none">contato@blackpowerbarbearia.com.br</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
     
+    <!-- Import Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>    
 </body>
 </html>
