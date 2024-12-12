@@ -49,3 +49,14 @@
         gap: 1rem;
     }
 }
+
+
+header h1 {
+    font-size: 2rem; /* Ajuste o tamanho conforme preferir */
+    font-family: 'Oleo Script', cursive; /* Fonte estilizada */
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase; /* Opcional: transforma o texto em maiúsculas */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+    margin: 0;
+}
